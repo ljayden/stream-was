@@ -20,7 +20,7 @@ public class StreamController {
 
     private StreamService streamService;
     private ObjectMapper objectMapper;
-    private final String FLAG = "flag";
+    private final static String FLAG = "flag";
 
     public StreamController(StreamService streamService, ObjectMapper objectMapper) {
         this.streamService = streamService;
